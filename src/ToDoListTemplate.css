@@ -1,0 +1,61 @@
+@font-face{
+  font-family: 'Gugi';
+  font-size: 15px;
+  
+ src:url('./Gugi-Regular.ttf') format("truetype");
+}
+.todo-list-template {
+    background: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); /* 그림자 */ 
+     /* 페이지 중앙 정렬 */
+  }
+  .left{
+    font-weight: 600;
+    font-size:2rem;
+    float:left;
+    width:20%;
+    min-height: 40rem;
+    border: 6px solid SaddleBrown
+  }
+  .right{
+    float:left;
+    width:50%;
+  }
+  .title {
+    font-family: 'Gugi';
+    padding: 1rem;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+    background: #FFA07A;;
+    color: white;
+    
+  }
+  
+  .form-wrapper {
+    
+    padding: 1rem;
+    border-bottom: 3px solid#FFA07A;
+  }
+  
+  .todos-wrapper {
+    
+    min-height: 5rem;
+  }
+  .button{
+    cursor: pointer;
+    font-family: 'Gugi';
+    font-size:1.5rem;
+    font-weight:900;
+    width:10rem;
+    height:2.5rem;
+    float:right;
+    color: #FFA07A; 
+    background: transparent; 
+    border: 1px solid #0099CC;
+    border-radius: 6px; 
+    border:0.3rem solid RosyBrown
+
+  }
+  button:hover {
+  background-color: #FFA07A;      color: white; }
